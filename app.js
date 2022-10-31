@@ -89,7 +89,56 @@ console.log(oppositeBoolean(true)) */
 
 // 9)if not 0 return true
 
-function isNotZero(num) {
+/* function isNotZero(num) {
     return num !== 0;
 }
-console.log(isNotZero(0))
+console.log(isNotZero(0)) */
+
+//////////////////////////
+// 10) calculate the remainder 
+
+/* function calcRemainder(num1, num2) {
+    return num1 % num2;
+}
+console.log(calcRemainder(5, 3)) */
+
+/////////////////////////////////
+
+// 11) is the number odd? (return true)
+/* function isOdd(num){
+    return num % 2 === 0;
+}
+
+console.log(isOdd(4)) */
+
+
+////////////////////////////
+// 12) if a number is even, return 1, otherwise return -1
+
+/* function booleanInteger(num) {
+    return num % 2 === 0 ? 1 : -1; 
+}
+console.log(booleanInteger(10)); */
+
+
+
+////////////////////////////
+// 13) check if a user is logged in AND subscribed 
+
+/* function isLoggedInAndSubscribed(loggedIn, subscribed) {
+    //return
+    return loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED';
+}
+
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED')) */
+
+/////////////////////////////////////
+// 14) Check if a user is logged in OR subscribed
+
+/* function isLoggedInAndSubscribed(loggedIn, subscribed) {
+    return loggedIn === 'LOGGED_IN' || subscribed === 'SUBSCRIBED';
+}
+
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED')) */
+
+////////FIN////////////
